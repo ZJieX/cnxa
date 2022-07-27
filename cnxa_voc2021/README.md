@@ -55,7 +55,7 @@ pytorch >= 1.12.0 + CUDA >= 11.0
     ②. img_path 代表图片的路径；
     ③. classes 代表包含所有类别的.txt文件所在的路径。
 
-运行 python create_txt.py --dataset 'voc2021' 生成cls_test_voc2021.txt用于评估，cls_train_voc2021.txt用于训练。
+运行 python create_txt.py成cls_test_voc2021.txt用于评估，cls_train_voc2021.txt用于训练。
 
 2. 输入python train.py
     ```

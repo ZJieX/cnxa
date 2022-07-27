@@ -57,7 +57,7 @@ pytorch >= 1.12.0 + CUDA >= 11.0
 
 运行 python create_txt.py --dataset 'voc2021' 生成cls_test_voc2021.txt用于评估，cls_train_voc2021.txt用于训练。
 
-2. 输入python train.py --backbone 'cnxa' --aa 'attention network' --pad 'padding method' --save-dir 'Path for saving logs and models'
+2. 输入python train.py
     ```
     --backbone 可以有'cnxa'、'cnx'和'vit'
     --aa 当backbone为cnxa时，可以进行设置，有'ca'、'sa'、'casa'、'bk'以及'bk_dw'
